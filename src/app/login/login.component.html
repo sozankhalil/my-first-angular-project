@@ -1,0 +1,64 @@
+<!-- <div class="absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] w-[50vw] border m-auto h-[50vh]"> -->
+<div
+  class="md:w-[50vw] md:border md:m-auto md:my-[30vh] hidden sm:block md:rounded-md"
+>
+  <form action="" class="items-center w-full text-center">
+    <fieldset class="flex flex-col m-auto text-center gap-[2.4vh] mt-[4vh]">
+      <div
+        class="overflow-hidden rounded-full inline-block bg-gray-light w-[8vw] text-center m-auto mt-[1.4vh]"
+      >
+        <img
+          src="/assets/icons/login1.png"
+          alt="login"
+          class="overflow-hidden"
+        />
+      </div>
+      <div
+        class="w-4/6 m-auto text-center border h-[5vh] flex items-stretch rounded"
+      >
+        <input
+          type="text"
+          name="username"
+          id=""
+          placeholder="username"
+          minlength="4"
+          required
+          class="w-full text-center text-[1.4vw]"
+        />
+      </div>
+      <div
+        class="w-4/6 m-auto text-center border h-[5vh] flex items-stretch rounded"
+      >
+        <input
+          type="password"
+          name="password"
+          id=""
+          placeholder="password"
+          minlength="8"
+          required
+          class="w-full text-center text-[1.4vw]"
+        />
+      </div>
+      <div>
+        <button
+          type="submit"
+          class="w-[12vw] m-auto h-[5vh] mb-[4vh] text-[1.6vw] rounded bg-orange text-white hover:bg-orange-light"
+          routerLink="/dashboard"
+        >
+          <a>Login</a>
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+
+<!-- <nav>
+    <ul class="flex gap-5">
+      <li class="">{{ "navbar.home" | translate }}</li>
+      <li>{{ "navbar.about" | translate }}</li>
+      <li>{{ "navbar.share" | translate }}</li>
+      <li>{{ "navbar.info" | translate }}</li>
+      <li translate>{{ "navbar.mobile" }}</li>
+      <li translate>{{ "navbar.subscribe" }}</li>
+    </ul>
+  </nav> -->

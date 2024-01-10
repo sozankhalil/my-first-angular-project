@@ -1,0 +1,11 @@
+<select class="p-[0.4vw] m-2 font-semibold border text-[1.2vw] rounded-md" (change)="changeLang($event)" >
+    <option [selected]="lang === 'en'" value="en" translate class="">
+      {{ "lang.english" }}
+    </option>
+    <option [selected]="lang === 'ar'" value="ar" translate class="p-2">
+      {{ "lang.arabic" }}
+    </option>
+    <option [selected]="lang === 'ku'" value="ku" translate class="p-2">
+      {{ "lang.kurdish" }}
+    </option>
+  </select>

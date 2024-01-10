@@ -1,0 +1,35 @@
+
+<div class="absolute h-[12vh] w-[18vw] top-0 left-0">
+    <div class="flex items-center justify-center h-[8vh]">
+      <img
+        src="https://www.svgrepo.com/show/303106/mcdonald-s-15-logo.svg"
+        alt="logo"
+        class="rounded-full w-[1.8vw] overflow-hidden"
+      />
+      <p class="text-[1vw] font-bold">Black swift</p>
+    </div>
+    <hr class="m-auto border w-[6vw]" />
+  </div>
+  <div class="h-[76vh] w-[18vw] absolute top-[12vh] left-0 overflow-auto">
+    <ul class="">
+      <li
+        class="pb-[3vh] flex "
+        routerLink="/dashboard/details"
+        *ngFor="let item of sidebarList"
+      >
+        <img
+          [src]="item.icon"
+          alt=""
+          class="size-[2.6vw] m-auto overflow-hidden mb-2"
+        />
+        <p class="text-[0.8vw]">{{ item.text }}</p>
+      </li>
+    </ul>
+  </div>
+  <div class="h-[8vh] absolute left-0 bottom-0 w-[8vw] text-center">
+    <button
+      class="px-[1.4vw] py-[1vh] text-white rounded bg-orange text-[1.2vw]"
+    >
+      Logout
+    </button>
+  </div>

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* cretate custom class tailwind  */
+.btn{
+    @apply px-[1.4vw] py-[1vh] text-white rounded bg-orange text-[1.2vw];
+}
+
+@layer components {
+    .btn-pink {
+        @apply px-4 py-2 text-center bg-pink ;
+    }
+}
+
+@layer utilities {
+    .p-21 {
+        padding: 5.5rem;
+    }
+    @variants hover,focus {
+        .p-21{
+            padding:5.5rem;
+        }
+    }
+}

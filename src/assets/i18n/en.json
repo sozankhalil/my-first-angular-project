@@ -1,0 +1,17 @@
+{
+  "dir": "ltr",
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "share": "Share",
+    "info": "Channel information",
+    "mobile": "Mobile",
+    "subscribe": "Subscribe",
+    "sidebar works": "Sidebar works"
+  },
+  "lang": {
+    "english": "English",
+    "kurdish": "Kurdish",
+    "arabic": "Arabic"
+  }
+}

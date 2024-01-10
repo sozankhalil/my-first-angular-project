@@ -1,0 +1,17 @@
+{
+  "dir": "rtl",
+  "navbar": {
+    "home": "بيت",
+    "about": "معلومات عنا",
+    "share": "يشارك",
+    "info": "معلومات القناة ",
+    "mobile": "مۆبایل",
+    "subscribe": "يشترك",
+    "sidebar works": "يعمل الشريط الجانبي"
+  },
+  "lang": {
+    "english": "إنجليزي",
+    "kurdish": "كردي",
+    "arabic": "عربي"
+  }
+}

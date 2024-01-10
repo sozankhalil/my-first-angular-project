@@ -1,0 +1,11 @@
+.test{
+    background: #8b8a8a;
+    font-size: 4vw;
+}
+::-webkit-scrollbar{
+  width: 1rem;
+
+}
+::-webkit-scrollbar-thumb{
+   
+}
